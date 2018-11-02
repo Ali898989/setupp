@@ -75,7 +75,7 @@ pkg install curl -y
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<+++++++++++++++++"
 
 mkdir /sdcard/payload5
-
+mkdir /sdcard/payload5/Encrypt
 git clone https://github.com/payload5/payload5
 
 cp payload5/payload5.zip $HOME
