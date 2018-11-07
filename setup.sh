@@ -5,6 +5,7 @@ clear
 rm -rf $HOME/payload5.zip
 rm -rf $HOME/payload5
 rm -rf $HOME/../usr/bin/payload.sh
+rm -rf $HOME/../usr/bin/payload
 rm -rf $HOME/../usr/bin/setup5.sh
 echo -e "$g+++++++++++++++>$p[P**********]$g<+++++++++++++++++"
 sleep 0.1
@@ -86,7 +87,7 @@ unzip payload5.zip
 
 cd payload5 && chmod +x *
 cd
-cp $HOME/payload5/payload.sh $HOME/../usr/bin
+cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
 cp $HOME/payload5/.setup5.sh $HOME/../usr/bin/setup5.sh
 chmod +x $HOME/../usr/bin/setup5.sh
 cd 
@@ -97,6 +98,6 @@ echo "              Hello      "
 echo -e "     $p              open ---> $g payload.sh "
 echo -e "     $g                                        payload5 "
 sleep 2
-payload.sh
+payload
 
 
