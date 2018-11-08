@@ -87,6 +87,7 @@ unzip payload5.zip
 
 cd payload5 && chmod +x *
 cd
+cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload.sh
 cp $HOME/payload5/payload.sh $HOME/../usr/bin/payload
 cp $HOME/payload5/.setup5.sh $HOME/../usr/bin/setup5.sh
 chmod +x $HOME/../usr/bin/setup5.sh
