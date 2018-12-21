@@ -68,6 +68,7 @@ pkg install python2 -y
 clear
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<+++++++++++++++++"
 pkg install python3 -y
+pkg install php -y
 clear
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<+++++++++++++++++"
 pkg install nano -y
