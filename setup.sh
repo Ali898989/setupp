@@ -94,6 +94,9 @@ cp $HOME/payload5/.setup5.sh $HOME/../usr/bin/setup5.sh
 chmod +x $HOME/../usr/bin/setup5.sh
 cd 
 rm -rf setupp
+cd $HOME/payload5/.tool
+
+chmod +x */*
 clear
 
 echo "              Hello      "
